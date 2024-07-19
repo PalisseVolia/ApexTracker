@@ -1,0 +1,486 @@
+[
+    {
+        "Image": 101,
+        "Text": "Play 12 matches as Bloodhound Horizon or Crypto"
+    },
+    {
+        "Image": 102,
+        "Text": "shotguns"
+    },
+    {
+        "Image": 103,
+        "Text": "Conduit, Gibraltar, Octane"
+    },
+    {
+        "Image": 104,
+        "Text": "assault rifles"
+    },
+    {
+        "Image": 105,
+        "Text": "Get 15 kills as Pathfinder Seer or Catalyst"
+    },
+    {
+        "Image": 106,
+        "Text": "Deal 500 melee damage"
+    },
+    {
+        "Image": 107,
+        "Text": "Play 5 matches as a Controller Legend in any game mode"
+    },
+    {
+        "Image": 108,
+        "Text": "Restore 1500 shields with Shield Cell Shield Battery or Phenix Kit"
+    },
+    {
+        "Image": 109,
+        "Text": "Equip a weapon attachment in 10 different matches"
+    },
+    {
+        "Image": 110,
+        "Text": "Kill another player using the same Legend as you"
+    },
+    {
+        "Image": 111,
+        "Text": "Loot 50 epic items"
+    },
+    {
+        "Image": 201,
+        "Text": "Ballistic, Bloodhound, Loba"
+    },
+    {
+        "Image": 202,
+        "Text": "pistols"
+    },
+    {
+        "Image": 203,
+        "Text": "Bangalore, Fuse, Vantage"
+    },
+    {
+        "Image": 204,
+        "Text": "sub machine guns"
+    },
+    {
+        "Image": 205,
+        "Text": "Get 50 Kills or assists"
+    },
+    {
+        "Image": 206,
+        "Text": "Finish in the top3 1with a combin ation of 3 kills knock"
+    },
+    {
+        "Image": 207,
+        "Text": "Play 5 matches as an Assault Legend in any game mode"
+    },
+    {
+        "Image": 208,
+        "Text": "fEquip a weapon attachment in 10 different matches"
+    },
+    {
+        "Image": 209,
+        "Text": "Deal 1500 damage from hipfire"
+    },
+    {
+        "Image": 210,
+        "Text": "Survive 20 ring closings"
+    },
+    {
+        "Image": 211,
+        "Text": "Reveal and Open a Care Package as a Skirmisher"
+    },
+    {
+        "Image": 301,
+        "Text": "Horizon, Wattson, Wraith"
+    },
+    {
+        "Image": 302,
+        "Text": "light machine guns"
+    },
+    {
+        "Image": 303,
+        "Text": "Ash, Ballistic, Pathfinder"
+    },
+    {
+        "Image": 304,
+        "Text": "sniper rifles"
+    },
+    {
+        "Image": 305,
+        "Text": "Deal 500 damage in a single match"
+    },
+    {
+        "Image": 306,
+        "Text": "Deal 1000 damage with a RedTier weapon"
+    },
+    {
+        "Image": 307,
+        "Text": "Get 25 headshots"
+    },
+    {
+        "Image": 308,
+        "Text": "Thank a squadmate in 10 different matches"
+    },
+    {
+        "Image": 309,
+        "Text": "Play 10 matches"
+    },
+    {
+        "Image": 310,
+        "Text": "Reveal and Open a Care Package as a Skirmisher"
+    },
+    {
+        "Image": 311,
+        "Text": "Kill another player using the same Legend as you"
+    },
+    {
+        "Image": 401,
+        "Text": "Alter, Seer, Wraith"
+    },
+    {
+        "Image": 402,
+        "Text": "assault rifles"
+    },
+    {
+        "Image": 403,
+        "Text": "Catalyst, Gibraltar, Wattson"
+    },
+    {
+        "Image": 404,
+        "Text": "light machine guns"
+    },
+    {
+        "Image": 405,
+        "Text": "Deal 500 damage in a single match"
+    },
+    {
+        "Image": 406,
+        "Text": "Play 5 matches as a Skirmisher Legend in any game mode"
+    },
+    {
+        "Image": 407,
+        "Text": "Deal 500 melee damage"
+    },
+    {
+        "Image": 408,
+        "Text": "Use a Survey Beacon as a Recon Legend 10 times"
+    },
+    {
+        "Image": 409,
+        "Text": "fOutlive 300 opponents"
+    },
+    {
+        "Image": 410,
+        "Text": "Play 10 matches"
+    },
+    {
+        "Image": 411,
+        "Text": "Loot 10 neutral care packages"
+    },
+    {
+        "Image": 501,
+        "Text": "Ash, Caustic, Lifeline"
+    },
+    {
+        "Image": 502,
+        "Text": "sniper rifles"
+    },
+    {
+        "Image": 503,
+        "Text": "Bloodhound, Conduit, Mirage"
+    },
+    {
+        "Image": 504,
+        "Text": "sub machine guns"
+    },
+    {
+        "Image": 505,
+        "Text": "Winmatch"
+    },
+    {
+        "Image": 506,
+        "Text": "Deal 4000 damage from hipfire"
+    },
+    {
+        "Image": 507,
+        "Text": "Play 5 matches as a Recon Legend in any game mode"
+    },
+    {
+        "Image": 508,
+        "Text": "Deal 750 damage with ordnance"
+    },
+    {
+        "Image": 509,
+        "Text": "Open 50 supply bins"
+    },
+    {
+        "Image": 510,
+        "Text": "Revive Squadmates 20 times"
+    },
+    {
+        "Image": 511,
+        "Text": "Reach an identified next ring zone before the Ring movesControl legend only"
+    },
+    {
+        "Image": 601,
+        "Text": "No matching strings found"
+    },
+    {
+        "Image": 602,
+        "Text": "No matching strings found"
+    },
+    {
+        "Image": 603,
+        "Text": "No matching strings found"
+    },
+    {
+        "Image": 604,
+        "Text": "No matching strings found"
+    },
+    {
+        "Image": 605,
+        "Text": "Get 50 Kills or assists"
+    },
+    {
+        "Image": 606,
+        "Text": "Play 5 matches as a Skirmisher Legend in any game mode"
+    },
+    {
+        "Image": 607,
+        "Text": "Deal 500 melee damage"
+    },
+    {
+        "Image": 608,
+        "Text": "Craft an Expired Ally Banner Card as a Support Legend"
+    },
+    {
+        "Image": 609,
+        "Text": "Loot 50 epic items"
+    },
+    {
+        "Image": 610,
+        "Text": "Play 10 matches"
+    },
+    {
+        "Image": 611,
+        "Text": "Deal 750 damage with ordnance"
+    },
+    {
+        "Image": 701,
+        "Text": "Crypto, Pathfinder, Valkyrie"
+    },
+    {
+        "Image": 702,
+        "Text": "pistols"
+    },
+    {
+        "Image": 703,
+        "Text": "Lifeline, Mad Maggie, Wattson"
+    },
+    {
+        "Image": 704,
+        "Text": "marksman weapons"
+    },
+    {
+        "Image": 705,
+        "Text": "Deal 500 damage in a single match"
+    },
+    {
+        "Image": 706,
+        "Text": "Play 5 matches as a Controller Legend in any game mode"
+    },
+    {
+        "Image": 707,
+        "Text": "Finish in the top3 1with a combin ation of 3 kills knock"
+    },
+    {
+        "Image": 708,
+        "Text": "Loot 50 epic items"
+    },
+    {
+        "Image": 709,
+        "Text": "Survive 20 ring closings"
+    },
+    {
+        "Image": 710,
+        "Text": "Play 10 matches"
+    },
+    {
+        "Image": 711,
+        "Text": "Revive Squadmates 20 times"
+    },
+    {
+        "Image": 801,
+        "Text": "Crypto, Fuse, Gibraltar"
+    },
+    {
+        "Image": 802,
+        "Text": "marksman weapons"
+    },
+    {
+        "Image": 803,
+        "Text": "Bloodhound, Caustic, Vantage"
+    },
+    {
+        "Image": 804,
+        "Text": "shotguns"
+    },
+    {
+        "Image": 805,
+        "Text": "Deal 5000 damage"
+    },
+    {
+        "Image": 806,
+        "Text": "Geta Top 5 finish 10 times"
+    },
+    {
+        "Image": 807,
+        "Text": "Play 5 matches as an Assault Legend in any game mode"
+    },
+    {
+        "Image": 808,
+        "Text": "Use a Ring Console as a Controller Legend 10 times"
+    },
+    {
+        "Image": 809,
+        "Text": "Loot 10 neutral care packages"
+    },
+    {
+        "Image": 810,
+        "Text": "Reveal and Open a Care Package as a Skirmisher"
+    },
+    {
+        "Image": 811,
+        "Text": "Kill another player using the same Legend as you"
+    },
+    {
+        "Image": 901,
+        "Text": "Ash, Bangalore, Rampart"
+    },
+    {
+        "Image": 902,
+        "Text": "light machine guns"
+    },
+    {
+        "Image": 903,
+        "Text": "Fuse, Valkyrie, Wraith"
+    },
+    {
+        "Image": 904,
+        "Text": "pistols"
+    },
+    {
+        "Image": 905,
+        "Text": "Get 15 kills as Gibraltar Loba or Mad Maggie"
+    },
+    {
+        "Image": 906,
+        "Text": "Survive 30 ring closings"
+    },
+    {
+        "Image": 907,
+        "Text": "Play 5 matches as a Support Legend in any game mode"
+    },
+    {
+        "Image": 908,
+        "Text": "Restore 1000 health"
+    },
+    {
+        "Image": 909,
+        "Text": "Obtain an Epic Attachment from a Weapon Supply Bin Assat"
+    },
+    {
+        "Image": 910,
+        "Text": "Reveal 5 Care Packages as a Skirmisher Legend"
+    },
+    {
+        "Image": 911,
+        "Text": "Get 2 kills with a RedTier weapon"
+    },
+    {
+        "Image": 1001,
+        "Text": "Mad Maggie, Newcastle, Pathfinder"
+    },
+    {
+        "Image": 1002,
+        "Text": "assault rifles"
+    },
+    {
+        "Image": 1003,
+        "Text": "Gibraltar, Loba, Valkyrie"
+    },
+    {
+        "Image": 1004,
+        "Text": "marksman weapons"
+    },
+    {
+        "Image": 1005,
+        "Text": "Deal 500 damage in a single match"
+    },
+    {
+        "Image": 1006,
+        "Text": "Survive 30 ring closings"
+    },
+    {
+        "Image": 1007,
+        "Text": "Perform 10 finishing moves"
+    },
+    {
+        "Image": 1008,
+        "Text": "Craft 10 times at a Replicator"
+    },
+    {
+        "Image": 1009,
+        "Text": "Breach through 15 walls using Alters Void Passage"
+    },
+    {
+        "Image": 1010,
+        "Text": "Open 10 Extended Supply Bins as a Support Legend"
+    },
+    {
+        "Image": 1011,
+        "Text": "No matching strings found"
+    },
+    {
+        "Image": 1101,
+        "Text": "Play 12 matches as Lifeline Ballistic or Revenant"
+    },
+    {
+        "Image": 1102,
+        "Text": "No matching strings found"
+    },
+    {
+        "Image": 1103,
+        "Text": "No matching strings found"
+    },
+    {
+        "Image": 1104,
+        "Text": "No matching strings found"
+    },
+    {
+        "Image": 1105,
+        "Text": "No matching strings found"
+    },
+    {
+        "Image": 1106,
+        "Text": "Play 5 matches as a Recon Legend in any game mode"
+    },
+    {
+        "Image": 1107,
+        "Text": "Deal 4000 damage from hipfire"
+    },
+    {
+        "Image": 1108,
+        "Text": "Play 10 matches"
+    },
+    {
+        "Image": 1109,
+        "Text": "Deal 750 damage with ordnance"
+    },
+    {
+        "Image": 1110,
+        "Text": "Revive Squadmates 20 times"
+    },
+    {
+        "Image": 1111,
+        "Text": "Loot 50 epic items"
+    }
+]
