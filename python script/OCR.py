@@ -99,7 +99,7 @@ for index, row in df.iterrows():
             if found_strings:
                 text = ", ".join(found_strings)
             else:
-                text = "No matching strings found"
+                text = "No matching strings found ("+string+")"
 
             df.at[index, "Text"] = text
         case 2:
@@ -113,7 +113,7 @@ for index, row in df.iterrows():
             if found_strings:
                 text = ", ".join(found_strings)
             else:
-                text = "No matching strings found"
+                text = "No matching strings found ("+string+")"
 
             df.at[index, "Text"] = text
         case 3:
@@ -127,7 +127,7 @@ for index, row in df.iterrows():
             if found_strings:
                 text = ", ".join(found_strings)
             else:
-                text = "No matching strings found"
+                text = "No matching strings found ("+string+")"
 
             df.at[index, "Text"] = text
         case 4:
@@ -141,11 +141,23 @@ for index, row in df.iterrows():
             if found_strings:
                 text = ", ".join(found_strings)
             else:
-                text = "No matching strings found"
+                text = "No matching strings found ("+string+")"
 
             df.at[index, "Text"] = text
-        # case 5:
-        #     
+        case 5:
+            strings_to_check = ["5000 ", "500 ", "50 ", "15 ", "1 "]
+
+            found_strings = []
+            for string in strings_to_check:
+                if string in text:
+                    found_strings.append(string)
+
+            if found_strings:
+                text = ", ".join(found_strings)
+            else:
+                text = "No matching strings found ("+string+")"
+
+            df.at[index, "Text"] = text
         # case 6:
         #     
         # case 7:
