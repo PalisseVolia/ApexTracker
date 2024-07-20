@@ -671,7 +671,9 @@
     },
     {
         "ID": 1009,
-        "Text": "No matching legend found (Breach through 15 walls using Alters Void Passage)"
+        "Text": [
+            "Breach"
+        ]
     },
     {
         "ID": 1010,

@@ -251,7 +251,7 @@ json_data = df.to_json(orient="records")
 # ===============================================================================
 
 # Write the JSON data to a file
-json_file = "ocr_results.json"
+json_file = "json/ocr_results.json"
 with open(json_file, "w") as f:
     f.write(json_data)
 
