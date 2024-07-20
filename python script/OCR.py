@@ -98,26 +98,26 @@ weapons = [
 chall_5 = [
     "5000 ",
     "500 ",
-    "50 ",
     "15 ",
+    "50 ",
     "1 "
 ]
 
 chall_67 = [
-    "4000 ",
     "1000 ",
+    "4000 ",
     "500 ",
-    "50 ",
-    "30 ",
+    "knockdowns",
     "25 ",
+    "finish 10",
+    "10 finishing",
     "Assault",
     "Controller",
     "Recon",
     "Skirmisher",
     "Support",
-    "finish 10",
-    "10 finishing",
-    "knockdowns"
+    "50 ",
+    "30 "
 ]
 
 chall_l4 = [
