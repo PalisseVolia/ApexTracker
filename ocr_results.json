@@ -1,486 +1,758 @@
 [
     {
-        "Image": 101,
-        "Text": "Play 12 matches as Bloodhound Horizon or Crypto"
+        "ID": 101,
+        "Text": [
+            "Bloodhound",
+            "Crypto",
+            "Horizon"
+        ]
     },
     {
-        "Image": 102,
-        "Text": "shotguns"
+        "ID": 102,
+        "Text": [
+            "shotguns"
+        ]
     },
     {
-        "Image": 103,
-        "Text": "Conduit, Gibraltar, Octane"
+        "ID": 103,
+        "Text": [
+            "Conduit",
+            "Gibraltar",
+            "Octane"
+        ]
     },
     {
-        "Image": 104,
-        "Text": "assault rifles"
+        "ID": 104,
+        "Text": [
+            "assault rifles"
+        ]
     },
     {
-        "Image": 105,
-        "Text": "15 "
+        "ID": 105,
+        "Text": [
+            "15"
+        ]
     },
     {
-        "Image": 106,
-        "Text": "Deal 500 melee damage"
+        "ID": 106,
+        "Text": [
+            "500"
+        ]
     },
     {
-        "Image": 107,
-        "Text": "Play 5 matches as a Controller Legend in any game mode"
+        "ID": 107,
+        "Text": [
+            "Controller"
+        ]
     },
     {
-        "Image": 108,
-        "Text": "Restore 1500 shields with Shield Cell Shield Battery or Phenix Kit"
+        "ID": 108,
+        "Text": [
+            "Restore 1500"
+        ]
     },
     {
-        "Image": 109,
-        "Text": "Equip a weapon attachment in 10 different matches"
+        "ID": 109,
+        "Text": [
+            "Equip"
+        ]
     },
     {
-        "Image": 110,
-        "Text": "Kill another player using the same Legend as you"
+        "ID": 110,
+        "Text": [
+            "another"
+        ]
     },
     {
-        "Image": 111,
-        "Text": "Loot 50 epic items"
+        "ID": 111,
+        "Text": [
+            "Loot 50"
+        ]
     },
     {
-        "Image": 201,
-        "Text": "Ballistic, Bloodhound, Loba"
+        "ID": 201,
+        "Text": [
+            "Ballistic",
+            "Bloodhound",
+            "Loba"
+        ]
     },
     {
-        "Image": 202,
-        "Text": "pistols"
+        "ID": 202,
+        "Text": [
+            "pistols"
+        ]
     },
     {
-        "Image": 203,
-        "Text": "Bangalore, Fuse, Vantage"
+        "ID": 203,
+        "Text": [
+            "Bangalore",
+            "Fuse",
+            "Vantage"
+        ]
     },
     {
-        "Image": 204,
-        "Text": "sub machine guns"
+        "ID": 204,
+        "Text": [
+            "sub machine guns"
+        ]
     },
     {
-        "Image": 205,
-        "Text": "50 "
+        "ID": 205,
+        "Text": [
+            "50"
+        ]
     },
     {
-        "Image": 206,
-        "Text": "Finish in the top3 1with a combin ation of 3 kills knock"
+        "ID": 206,
+        "Text": [
+            "knockdowns"
+        ]
     },
     {
-        "Image": 207,
-        "Text": "Play 5 matches as an Assault Legend in any game mode"
+        "ID": 207,
+        "Text": [
+            "Assault"
+        ]
     },
     {
-        "Image": 208,
-        "Text": "fEquip a weapon attachment in 10 different matches"
+        "ID": 208,
+        "Text": [
+            "Equip"
+        ]
     },
     {
-        "Image": 209,
-        "Text": "Deal 1500 damage from hipfire"
+        "ID": 209,
+        "Text": [
+            "Deal 1500"
+        ]
     },
     {
-        "Image": 210,
-        "Text": "Survive 20 ring closings"
+        "ID": 210,
+        "Text": [
+            "Survive"
+        ]
     },
     {
-        "Image": 211,
-        "Text": "Reveal and Open a Care Package as a Skirmisher"
+        "ID": 211,
+        "Text": [
+            "Reveal"
+        ]
     },
     {
-        "Image": 301,
-        "Text": "Horizon, Wattson, Wraith"
+        "ID": 301,
+        "Text": [
+            "Horizon",
+            "Wattson",
+            "Wraith"
+        ]
     },
     {
-        "Image": 302,
-        "Text": "light machine guns"
+        "ID": 302,
+        "Text": [
+            "light machine guns"
+        ]
     },
     {
-        "Image": 303,
-        "Text": "Ash, Ballistic, Pathfinder"
+        "ID": 303,
+        "Text": [
+            "Ash",
+            "Ballistic",
+            "Pathfinder"
+        ]
     },
     {
-        "Image": 304,
-        "Text": "sniper rifles"
+        "ID": 304,
+        "Text": [
+            "sniper rifles"
+        ]
     },
     {
-        "Image": 305,
-        "Text": "500 "
+        "ID": 305,
+        "Text": [
+            "500"
+        ]
     },
     {
-        "Image": 306,
-        "Text": "Deal 1000 damage with a RedTier weapon"
+        "ID": 306,
+        "Text": [
+            "1000"
+        ]
     },
     {
-        "Image": 307,
-        "Text": "Get 25 headshots"
+        "ID": 307,
+        "Text": [
+            "25"
+        ]
     },
     {
-        "Image": 308,
-        "Text": "Thank a squadmate in 10 different matches"
+        "ID": 308,
+        "Text": [
+            "Thank"
+        ]
     },
     {
-        "Image": 309,
-        "Text": "Play 10 matches"
+        "ID": 309,
+        "Text": [
+            "Play 10"
+        ]
     },
     {
-        "Image": 310,
-        "Text": "Reveal and Open a Care Package as a Skirmisher"
+        "ID": 310,
+        "Text": [
+            "Reveal"
+        ]
     },
     {
-        "Image": 311,
-        "Text": "Kill another player using the same Legend as you"
+        "ID": 311,
+        "Text": [
+            "another"
+        ]
     },
     {
-        "Image": 401,
-        "Text": "Alter, Seer, Wraith"
+        "ID": 401,
+        "Text": [
+            "Alter",
+            "Seer",
+            "Wraith"
+        ]
     },
     {
-        "Image": 402,
-        "Text": "assault rifles"
+        "ID": 402,
+        "Text": [
+            "assault rifles"
+        ]
     },
     {
-        "Image": 403,
-        "Text": "Catalyst, Gibraltar, Wattson"
+        "ID": 403,
+        "Text": [
+            "Catalyst",
+            "Gibraltar",
+            "Wattson"
+        ]
     },
     {
-        "Image": 404,
-        "Text": "light machine guns"
+        "ID": 404,
+        "Text": [
+            "light machine guns"
+        ]
     },
     {
-        "Image": 405,
-        "Text": "500 "
+        "ID": 405,
+        "Text": [
+            "500"
+        ]
     },
     {
-        "Image": 406,
-        "Text": "Play 5 matches as a Skirmisher Legend in any game mode"
+        "ID": 406,
+        "Text": [
+            "Skirmisher"
+        ]
     },
     {
-        "Image": 407,
-        "Text": "Deal 500 melee damage"
+        "ID": 407,
+        "Text": [
+            "500"
+        ]
     },
     {
-        "Image": 408,
-        "Text": "Use a Survey Beacon as a Recon Legend 10 times"
+        "ID": 408,
+        "Text": [
+            "Use a Survey"
+        ]
     },
     {
-        "Image": 409,
-        "Text": "fOutlive 300 opponents"
+        "ID": 409,
+        "Text": [
+            "300"
+        ]
     },
     {
-        "Image": 410,
-        "Text": "Play 10 matches"
+        "ID": 410,
+        "Text": [
+            "Play 10"
+        ]
     },
     {
-        "Image": 411,
-        "Text": "Loot 10 neutral care packages"
+        "ID": 411,
+        "Text": [
+            "neutral"
+        ]
     },
     {
-        "Image": 501,
-        "Text": "Ash, Caustic, Lifeline"
+        "ID": 501,
+        "Text": [
+            "Ash",
+            "Caustic",
+            "Lifeline"
+        ]
     },
     {
-        "Image": 502,
-        "Text": "sniper rifles"
+        "ID": 502,
+        "Text": [
+            "sniper rifles"
+        ]
     },
     {
-        "Image": 503,
-        "Text": "Bloodhound, Conduit, Mirage"
+        "ID": 503,
+        "Text": [
+            "Bloodhound",
+            "Conduit",
+            "Mirage"
+        ]
     },
     {
-        "Image": 504,
-        "Text": "sub machine guns"
+        "ID": 504,
+        "Text": [
+            "sub machine guns"
+        ]
     },
     {
-        "Image": 505,
-        "Text": "No matching strings found1 "
+        "ID": 505,
+        "Text": [
+            "1"
+        ]
     },
     {
-        "Image": 506,
-        "Text": "Deal 4000 damage from hipfire"
+        "ID": 506,
+        "Text": [
+            "4000"
+        ]
     },
     {
-        "Image": 507,
-        "Text": "Play 5 matches as a Recon Legend in any game mode"
+        "ID": 507,
+        "Text": [
+            "Recon"
+        ]
     },
     {
-        "Image": 508,
-        "Text": "Deal 750 damage with ordnance"
+        "ID": 508,
+        "Text": [
+            "Deal 750"
+        ]
     },
     {
-        "Image": 509,
-        "Text": "Open 50 supply bins"
+        "ID": 509,
+        "Text": [
+            "Open 50"
+        ]
     },
     {
-        "Image": 510,
-        "Text": "Revive Squadmates 20 times"
+        "ID": 510,
+        "Text": [
+            "Revive"
+        ]
     },
     {
-        "Image": 511,
-        "Text": "Reach an identified next ring zone before the Ring movesControl legend only"
+        "ID": 511,
+        "Text": [
+            "Reach"
+        ]
     },
     {
-        "Image": 601,
-        "Text": "No matching strings foundWraith"
+        "ID": 601,
+        "Text": "No matching legend found (Get 50 Kills or assists)"
     },
     {
-        "Image": 602,
-        "Text": "No matching strings foundsub machine guns"
+        "ID": 602,
+        "Text": "No matching legend found (Play 5 matches as a Skirmisher Legend in any game mode)"
     },
     {
-        "Image": 603,
-        "Text": "No matching strings foundWraith"
+        "ID": 603,
+        "Text": "No matching legend found (Deal 500 melee damage)"
     },
     {
-        "Image": 604,
-        "Text": "No matching strings foundsub machine guns"
+        "ID": 604,
+        "Text": "No matching legend found (Craft an Expired Ally Banner Card as a Support Legend)"
     },
     {
-        "Image": 605,
-        "Text": "50 "
+        "ID": 605,
+        "Text": [
+            "50"
+        ]
     },
     {
-        "Image": 606,
-        "Text": "Play 5 matches as a Skirmisher Legend in any game mode"
+        "ID": 606,
+        "Text": [
+            "Skirmisher"
+        ]
     },
     {
-        "Image": 607,
-        "Text": "Deal 500 melee damage"
+        "ID": 607,
+        "Text": [
+            "500"
+        ]
     },
     {
-        "Image": 608,
-        "Text": "Craft an Expired Ally Banner Card as a Support Legend"
+        "ID": 608,
+        "Text": [
+            "Card"
+        ]
     },
     {
-        "Image": 609,
-        "Text": "Loot 50 epic items"
+        "ID": 609,
+        "Text": [
+            "Loot 50"
+        ]
     },
     {
-        "Image": 610,
-        "Text": "Play 10 matches"
+        "ID": 610,
+        "Text": [
+            "Play 10"
+        ]
     },
     {
-        "Image": 611,
-        "Text": "Deal 750 damage with ordnance"
+        "ID": 611,
+        "Text": [
+            "Deal 750"
+        ]
     },
     {
-        "Image": 701,
-        "Text": "Crypto, Pathfinder, Valkyrie"
+        "ID": 701,
+        "Text": [
+            "Crypto",
+            "Pathfinder",
+            "Valkyrie"
+        ]
     },
     {
-        "Image": 702,
-        "Text": "pistols"
+        "ID": 702,
+        "Text": [
+            "pistols"
+        ]
     },
     {
-        "Image": 703,
-        "Text": "Lifeline, Mad Maggie, Wattson"
+        "ID": 703,
+        "Text": [
+            "Lifeline",
+            "Mad Maggie",
+            "Wattson"
+        ]
     },
     {
-        "Image": 704,
-        "Text": "marksman weapons"
+        "ID": 704,
+        "Text": [
+            "marksman weapons"
+        ]
     },
     {
-        "Image": 705,
-        "Text": "500 "
+        "ID": 705,
+        "Text": [
+            "500"
+        ]
     },
     {
-        "Image": 706,
-        "Text": "Play 5 matches as a Controller Legend in any game mode"
+        "ID": 706,
+        "Text": [
+            "Controller"
+        ]
     },
     {
-        "Image": 707,
-        "Text": "Finish in the top3 1with a combin ation of 3 kills knock"
+        "ID": 707,
+        "Text": [
+            "knockdowns"
+        ]
     },
     {
-        "Image": 708,
-        "Text": "Loot 50 epic items"
+        "ID": 708,
+        "Text": [
+            "Loot 50"
+        ]
     },
     {
-        "Image": 709,
-        "Text": "Survive 20 ring closings"
+        "ID": 709,
+        "Text": [
+            "Survive"
+        ]
     },
     {
-        "Image": 710,
-        "Text": "Play 10 matches"
+        "ID": 710,
+        "Text": [
+            "Play 10"
+        ]
     },
     {
-        "Image": 711,
-        "Text": "Revive Squadmates 20 times"
+        "ID": 711,
+        "Text": [
+            "Revive"
+        ]
     },
     {
-        "Image": 801,
-        "Text": "Crypto, Fuse, Gibraltar"
+        "ID": 801,
+        "Text": [
+            "Crypto",
+            "Fuse",
+            "Gibraltar"
+        ]
     },
     {
-        "Image": 802,
-        "Text": "marksman weapons"
+        "ID": 802,
+        "Text": [
+            "marksman weapons"
+        ]
     },
     {
-        "Image": 803,
-        "Text": "Bloodhound, Caustic, Vantage"
+        "ID": 803,
+        "Text": [
+            "Bloodhound",
+            "Caustic",
+            "Vantage"
+        ]
     },
     {
-        "Image": 804,
-        "Text": "shotguns"
+        "ID": 804,
+        "Text": [
+            "shotguns"
+        ]
     },
     {
-        "Image": 805,
-        "Text": "5000 "
+        "ID": 805,
+        "Text": [
+            "5000"
+        ]
     },
     {
-        "Image": 806,
-        "Text": "Geta Top 5 finish 10 times"
+        "ID": 806,
+        "Text": [
+            "finish 10"
+        ]
     },
     {
-        "Image": 807,
-        "Text": "Play 5 matches as an Assault Legend in any game mode"
+        "ID": 807,
+        "Text": [
+            "Assault"
+        ]
     },
     {
-        "Image": 808,
-        "Text": "Use a Ring Console as a Controller Legend 10 times"
+        "ID": 808,
+        "Text": [
+            "Use a Ring"
+        ]
     },
     {
-        "Image": 809,
-        "Text": "Loot 10 neutral care packages"
+        "ID": 809,
+        "Text": [
+            "neutral"
+        ]
     },
     {
-        "Image": 810,
-        "Text": "Reveal and Open a Care Package as a Skirmisher"
+        "ID": 810,
+        "Text": [
+            "Reveal"
+        ]
     },
     {
-        "Image": 811,
-        "Text": "Kill another player using the same Legend as you"
+        "ID": 811,
+        "Text": [
+            "another"
+        ]
     },
     {
-        "Image": 901,
-        "Text": "Ash, Bangalore, Rampart"
+        "ID": 901,
+        "Text": [
+            "Ash",
+            "Bangalore",
+            "Rampart"
+        ]
     },
     {
-        "Image": 902,
-        "Text": "light machine guns"
+        "ID": 902,
+        "Text": [
+            "light machine guns"
+        ]
     },
     {
-        "Image": 903,
-        "Text": "Fuse, Valkyrie, Wraith"
+        "ID": 903,
+        "Text": [
+            "Fuse",
+            "Valkyrie",
+            "Wraith"
+        ]
     },
     {
-        "Image": 904,
-        "Text": "pistols"
+        "ID": 904,
+        "Text": [
+            "pistols"
+        ]
     },
     {
-        "Image": 905,
-        "Text": "15 "
+        "ID": 905,
+        "Text": [
+            "15"
+        ]
     },
     {
-        "Image": 906,
-        "Text": "Survive 30 ring closings"
+        "ID": 906,
+        "Text": [
+            "30"
+        ]
     },
     {
-        "Image": 907,
-        "Text": "Play 5 matches as a Support Legend in any game mode"
+        "ID": 907,
+        "Text": [
+            "Support"
+        ]
     },
     {
-        "Image": 908,
-        "Text": "Restore 1000 health"
+        "ID": 908,
+        "Text": [
+            "Restore 1000"
+        ]
     },
     {
-        "Image": 909,
-        "Text": "Obtain an Epic Attachment from a Weapon Supply Bin Assat"
+        "ID": 909,
+        "Text": [
+            "Obtain"
+        ]
     },
     {
-        "Image": 910,
-        "Text": "Reveal 5 Care Packages as a Skirmisher Legend"
+        "ID": 910,
+        "Text": [
+            "Reveal"
+        ]
     },
     {
-        "Image": 911,
-        "Text": "Get 2 kills with a RedTier weapon"
+        "ID": 911,
+        "Text": [
+            "2"
+        ]
     },
     {
-        "Image": 1001,
-        "Text": "Mad Maggie, Newcastle, Pathfinder"
+        "ID": 1001,
+        "Text": [
+            "Mad Maggie",
+            "Newcastle",
+            "Pathfinder"
+        ]
     },
     {
-        "Image": 1002,
-        "Text": "assault rifles"
+        "ID": 1002,
+        "Text": [
+            "assault rifles"
+        ]
     },
     {
-        "Image": 1003,
-        "Text": "Gibraltar, Loba, Valkyrie"
+        "ID": 1003,
+        "Text": [
+            "Gibraltar",
+            "Loba",
+            "Valkyrie"
+        ]
     },
     {
-        "Image": 1004,
-        "Text": "marksman weapons"
+        "ID": 1004,
+        "Text": [
+            "marksman weapons"
+        ]
     },
     {
-        "Image": 1005,
-        "Text": "500 "
+        "ID": 1005,
+        "Text": [
+            "500"
+        ]
     },
     {
-        "Image": 1006,
-        "Text": "Survive 30 ring closings"
+        "ID": 1006,
+        "Text": [
+            "30"
+        ]
     },
     {
-        "Image": 1007,
-        "Text": "Perform 10 finishing moves"
+        "ID": 1007,
+        "Text": [
+            "10 finishing"
+        ]
     },
     {
-        "Image": 1008,
-        "Text": "Craft 10 times at a Replicator"
+        "ID": 1008,
+        "Text": [
+            "Replicator"
+        ]
     },
     {
-        "Image": 1009,
-        "Text": "Breach through 15 walls using Alters Void Passage"
+        "ID": 1009,
+        "Text": "No matching legend found (Breach through 15 walls using Alters Void Passage)"
     },
     {
-        "Image": 1010,
-        "Text": "Open 10 Extended Supply Bins as a Support Legend"
+        "ID": 1010,
+        "Text": [
+            "10 Extended"
+        ]
     },
     {
-        "Image": 1011,
-        "Text": "No matching strings foundWraith"
+        "ID": 1011,
+        "Text": [
+            "Loot 50"
+        ]
     },
     {
-        "Image": 1101,
-        "Text": "Play 12 matches as Lifeline Ballistic or Revenant"
+        "ID": 1101,
+        "Text": [
+            "Ballistic",
+            "Lifeline",
+            "Revenant"
+        ]
     },
     {
-        "Image": 1102,
-        "Text": "No matching strings foundWraith"
+        "ID": 1102,
+        "Text": [
+            "sub machine guns"
+        ]
     },
     {
-        "Image": 1103,
-        "Text": "No matching strings foundsub machine guns"
+        "ID": 1103,
+        "Text": [
+            "Mirage",
+            "Vantage",
+            "Wraith"
+        ]
     },
     {
-        "Image": 1104,
-        "Text": "No matching strings foundWraith"
+        "ID": 1104,
+        "Text": [
+            "shotguns"
+        ]
     },
     {
-        "Image": 1105,
-        "Text": "No matching strings foundsub machine guns"
+        "ID": 1105,
+        "Text": [
+            "15"
+        ]
     },
     {
-        "Image": 1106,
-        "Text": "No matching strings found1 "
+        "ID": 1106,
+        "Text": [
+            "Recon"
+        ]
     },
     {
-        "Image": 1107,
-        "Text": "Deal 4000 damage from hipfire"
+        "ID": 1107,
+        "Text": [
+            "4000"
+        ]
     },
     {
-        "Image": 1108,
-        "Text": "Play 10 matches"
+        "ID": 1108,
+        "Text": [
+            "Play 10"
+        ]
     },
     {
-        "Image": 1109,
-        "Text": "Deal 750 damage with ordnance"
+        "ID": 1109,
+        "Text": [
+            "Deal 750"
+        ]
     },
     {
-        "Image": 1110,
-        "Text": "Revive Squadmates 20 times"
+        "ID": 1110,
+        "Text": [
+            "Revive"
+        ]
     },
     {
-        "Image": 1111,
-        "Text": "Loot 50 epic items"
+        "ID": 1111,
+        "Text": [
+            "Loot 50"
+        ]
     }
 ]

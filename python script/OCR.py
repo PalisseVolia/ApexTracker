@@ -7,6 +7,10 @@ import re
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
+# ===============================================================================
+# Genreal variables
+# ===============================================================================
+
 # Path to the directory containing the images
 image_dir = "images"
 
@@ -43,9 +47,115 @@ corrections = {
     ' UN': '',
     'ina': 'in a',
     'fl ': '',
+    'fOutlive': 'Outlive',
     'fi ': '',
+    'Winmatch': 'Win 1 match',
+    'combin ation': 'combination',
+    'knock': 'knockdowns',
+    'top3 1with': 'top-3 1 time with',
     'eml': '5'
 }
+
+legends = [
+    "Ash",
+    "Alter",
+    "Ballistic",
+    "Bangalore",
+    "Bloodhound",
+    "Catalyst",
+    "Caustic",
+    "Conduit",
+    "Crypto",
+    "Fuse",
+    "Gibraltar",
+    "Horizon",
+    "Lifeline",
+    "Loba",
+    "Mad Maggie",
+    "Mirage",
+    "Newcastle",
+    "Octane",
+    "Pathfinder",
+    "Rampart",
+    "Revenant",
+    "Seer",
+    "Valkyrie",
+    "Vantage",
+    "Wattson",
+    "Wraith"
+]
+
+weapons = [
+    "marksman weapons",
+    "assault rifles",
+    "pistols",
+    "shotguns",
+    "light machine guns",
+    "sniper rifles",
+    "sub machine guns"
+]
+
+chall_5 = [
+    "5000 ",
+    "500 ",
+    "50 ",
+    "15 ",
+    "1 "
+]
+
+chall_67 = [
+    "4000 ",
+    "1000 ",
+    "500 ",
+    "50 ",
+    "30 ",
+    "25 ",
+    "Assault",
+    "Controller",
+    "Recon",
+    "Skirmisher",
+    "Support",
+    "finish 10",
+    "10 finishing",
+    "knockdowns"
+]
+
+chall_l4 = [
+    "Replicator",
+    "Card",
+    "Deal 1000",
+    "Deal 1500",
+    "Deal 750",
+    "Scanning",
+    "Equip",
+    "Evolve",
+    "2 ",
+    "another",
+    "legendary",
+    "neutral",
+    "Loot 50",
+    "Obtain",
+    "10 Extended",
+    "10 Weapon",
+    "Open 50",
+    "300 ",
+    "Play 10",
+    "Reach",
+    "Restore 1000",
+    "Restore 1500",
+    "Regenerate 1500",
+    "Breach",
+    "Reveal",
+    "Revive",
+    "Survive",
+    "Thank",
+    "Use a Ring",
+    "Use a Survey"
+]
+
+# ===============================================================================
+# OCR to get challenges descrtpion from images, stored in a dataframe
+# ===============================================================================
 
 # Loop through each image file in the directory
 for filename in os.listdir(image_dir):
@@ -67,151 +177,78 @@ for filename in os.listdir(image_dir):
         text = '\n'.join([line.strip() for line in text.split('\n')])
 
         # Append the OCR result to the list
-        ocr_results.append({"Image": filename, "Text": text})
+        ocr_results.append({"ID": filename, "Text": text})
 
 # Create a pandas DataFrame from the OCR results
 df = pd.DataFrame(ocr_results)
+
+for index, row in df.iterrows():
+    # Access the values of each column in the row
+    image_filename = row["ID"]
+    
+    # Perform operations on the values
+    image_number = int(image_filename.split(".")[0])
+    # Replace the value in the DataFrame
+    df.at[index, "ID"] = image_number
+
+# Sort the DataFrame by the "Image" column in ascending order
+df = df.sort_values(by="ID")
+
+# ===============================================================================
+# Data cleaning and processing for UI integration
+# ===============================================================================
+
+def find_strings(text, strings_to_check):
+    found_strings = []
+    for string in strings_to_check:
+        if string in text:
+            found_strings.append(string.strip())
+    if found_strings:
+        text = found_strings
+    else:
+        text = "No matching legend found ("+text+")"
+    return text
 
 k = 1
 # Iterate over each row in the DataFrame
 for index, row in df.iterrows():
     # Access the values of each column in the row
-    image_filename = row["Image"]
     text = row["Text"]
-    
-    # Perform operations on the values
-    image_number = int(image_filename.split(".")[0])
-    # Replace the value in the DataFrame
-    df.at[index, "Image"] = image_number
 
     if k == 12:
         k = 1
     print(k)
     match k:
         case 1:
-            strings_to_check = ["Ash", "Alter", "Ballistic", "Bangalore", "Bloodhound", "Catalyst", "Caustic", "Conduit", "Crypto", "Fuse", "Gibraltar", "Horizon", "Lifeline", "Loba", "Mad Maggie", "Mirage", "Newcastle", "Octane", "Pathfinder", "Rampart", "Revenant", "Seer", "Valkyrie", "Vantage", "Wattson", "Wraith"]
-
-            found_strings = []
-            for string in strings_to_check:
-                if string in text:
-                    found_strings.append(string)
-
-            if found_strings:
-                text = ", ".join(found_strings)
-            else:
-                text = "No matching strings found ("+string+")"
-
-            df.at[index, "Text"] = text
+            df.at[index, "Text"] = find_strings(text, legends)
         case 2:
-            strings_to_check = ["marksman weapons", "assault rifles", "pistols", "shotguns", "light machine guns", "sniper rifles", "sub machine guns"]
-
-            found_strings = []
-            for string in strings_to_check:
-                if string in text:
-                    found_strings.append(string)
-
-            if found_strings:
-                text = ", ".join(found_strings)
-            else:
-                text = "No matching strings found ("+string+")"
-
-            df.at[index, "Text"] = text
+            df.at[index, "Text"] = find_strings(text, weapons)
         case 3:
-            strings_to_check = ["Ash", "Alter", "Ballistic", "Bangalore", "Bloodhound", "Catalyst", "Caustic", "Conduit", "Crypto", "Fuse", "Gibraltar", "Horizon", "Lifeline", "Loba", "Mad Maggie", "Mirage", "Newcastle", "Octane", "Pathfinder", "Rampart", "Revenant", "Seer", "Valkyrie", "Vantage", "Wattson", "Wraith"]
-
-            found_strings = []
-            for string in strings_to_check:
-                if string in text:
-                    found_strings.append(string)
-
-            if found_strings:
-                text = ", ".join(found_strings)
-            else:
-                text = "No matching strings found ("+string+")"
-
-            df.at[index, "Text"] = text
+            df.at[index, "Text"] = find_strings(text, legends)
         case 4:
-            strings_to_check = ["marksman weapons", "assault rifles", "pistols", "shotguns", "light machine guns", "sniper rifles", "sub machine guns"]
-
-            found_strings = []
-            for string in strings_to_check:
-                if string in text:
-                    found_strings.append(string)
-
-            if found_strings:
-                text = ", ".join(found_strings)
-            else:
-                text = "No matching strings found ("+string+")"
-
-            df.at[index, "Text"] = text
+            df.at[index, "Text"] = find_strings(text, weapons)
         case 5:
-            strings_to_check = ["5000 ", "500 ", "50 ", "15 ", "1 "]
-
-            found_strings = []
-            for string in strings_to_check:
-                if string in text:
-                    found_strings.append(string)
-
-            if found_strings:
-                text = ", ".join(found_strings)
-            else:
-                text = "No matching strings found ("+string+")"
-
-            df.at[index, "Text"] = text
-        # case 6:
-        #     
-        # case 7:
-        #     
-        # case 8:
-        #     
-        # case 9:
-        #     
-        # case 10:
-        #     
-        # case 11:
-        #     
-        
+            df.at[index, "Text"] = find_strings(text, chall_5)
+        case 6:
+            df.at[index, "Text"] = find_strings(text, chall_67)
+        case 7:
+            df.at[index, "Text"] = find_strings(text, chall_67)
+        case 8:
+            df.at[index, "Text"] = find_strings(text, chall_l4)
+        case 9:
+            df.at[index, "Text"] = find_strings(text, chall_l4)
+        case 10:
+            df.at[index, "Text"] = find_strings(text, chall_l4)
+        case 11:
+            df.at[index, "Text"] = find_strings(text, chall_l4)
     k+=1
     
-    # Print the values
-    # print(f"Image: {image_number}")
-    # print(f"Text: {text}")
-    # print("--------------------")
-# Sort the DataFrame by the "Image" column in ascending order
-df = df.sort_values(by="Image")
-
-
-
-# # Check for specific strings in df
-# specific_strings = {
-#     1: ["Pathfinder", "string2", "string3"],
-#     2: ["string4", "string5", "string6"],
-#     3: ["string7", "string8", "string9"],
-#     4: ["string10", "string11", "string12"],
-#     5: ["string1", "string2", "string3"],
-#     6: ["string4", "string5", "string6"],
-#     7: ["string7", "string8", "string9"],
-#     8: ["string10", "string11", "string12"],
-#     9: ["string1", "string2", "string3"],
-#     10: ["string4", "string5", "string6"],
-#     11: ["string7", "string8", "string9"]
-# }
-
-# # Iterate over the specific_strings dictionary
-# for key, strings in specific_strings.items():
-#     # Get the column name based on the key
-#     column_name = f"Text_{key}"
-    
-#     # Check if the column exists in the DataFrame
-#     if column_name in df.columns:
-#         # Check for the occurrence of the strings in the corresponding column
-#         df[column_name] = df["Text"].apply(lambda x: any(string in x for string in strings))
-
-# Print the DataFrame
-print(df)
-
 # Convert the DataFrame to JSON
 json_data = df.to_json(orient="records")
+
+# ===============================================================================
+# Export to Json file
+# ===============================================================================
 
 # Write the JSON data to a file
 json_file = "ocr_results.json"
